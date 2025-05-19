@@ -2,7 +2,7 @@
 // API service for backend communication
 
 // Backend URL - change this if your backend runs on a different port
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'http://0.0.0.0:8080/api';
 
 // Check if backend is running
 export const checkBackendStatus = async () => {
