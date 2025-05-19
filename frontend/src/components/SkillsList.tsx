@@ -42,10 +42,6 @@ const SkillsList = ({ skills }: SkillsListProps) => {
         <div className="text-center py-8 text-gray-500">
   <p className="text-sm">🧐 No skills found yet. Upload a resume to get started!</p>
 </div>
-      ) : categories.length === 1 ? (
-        <div className="text-center py-8 text-gray-500">
-          <p className="text-sm">🧐 No skills found yet. Upload a resume to get started!</p>
-        </div>
       ) : (
         <div className="space-y-6">
           {categories.map((category) => (
