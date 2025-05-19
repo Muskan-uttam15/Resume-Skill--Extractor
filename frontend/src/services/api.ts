@@ -2,7 +2,7 @@
 // API service for backend communication
 
 // Backend URL - change this if your backend runs on a different port
-const API_BASE_URL = 'https://stellar-embrace-production.up.railway.app/api';
+const API_BASE_URL = 'https://resume-skill-extractor1.onrender.com/api';
 
 // Check if backend is running
 export const checkBackendStatus = async () => {
